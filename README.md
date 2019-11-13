@@ -22,10 +22,15 @@ Zum Beispiel sollen folgende Module besucht werden:
 | UI2 | UI1|
 
 ### Lösung für dieses Beispiel
-Semester 1: Math OO 
-Semester 2: DB1 AD1 CPI 
-Semester 3: DB2 SE1 UI1 
-Semester 4: SE2 UI2 
-Semester 5: Thesis 
+Semester 1: Math OO
+
+Semester 2: DB1 AD1 CPI
+
+Semester 3: DB2 SE1 UI1
+
+Semester 4: SE2 UI2
+
+Semester 5: Thesis
+
 
 
