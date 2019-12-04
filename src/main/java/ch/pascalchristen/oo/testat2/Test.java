@@ -19,6 +19,5 @@ public class Test {
 		}
 		Schedule moduleSchedule = new Schedule(modules);
 		moduleSchedule.findOrder();
-
 	}
 }

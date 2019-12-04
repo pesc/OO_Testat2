@@ -1,10 +1,10 @@
 package ch.pascalchristen.oo.testat2;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Schedule {
 	private List<Module> modules = new ArrayList<>();
-	
 	private int semester = 1;
 
 	public Schedule(List<Module> modules) {
@@ -19,7 +19,7 @@ public class Schedule {
 			for (Module module : modules) {
 				if (module.isEmpty()) {
 					printModuleName(module);
-					
+
 					toRemove.add(module);
 				}
 			}
@@ -42,7 +42,6 @@ public class Schedule {
 
 	private void printModuleName(Module module) {
 		System.out.print(module.getModuleName() + " ");
-
 	}
 
 	private void removeFromDependencySet(String moduleName) {
@@ -50,5 +49,4 @@ public class Schedule {
 			module.removeDependency(moduleName);
 		}
 	}
-
 }

@@ -1,4 +1,5 @@
 package ch.pascalchristen.oo.testat2;
+
 import java.util.HashSet;
 
 public class Module {
@@ -16,7 +17,7 @@ public class Module {
 	public void addDependency(String dependencyName) {
 		dependencySet.add(dependencyName);
 	}
-	
+
 	public boolean isEmpty() {
 		return dependencySet.isEmpty();
 	}
